@@ -1,3 +1,11 @@
 site_name: 鸽屋谷技术中心
-theme:
-    name: readthedocs
+# theme:
+#     name: readthedocs
+
+theme: 'windmill'
+
+nav:
+    # 按照这个格式创建目录树 Home是目录/子目录名 后面的是具体的文件
+- Home: index.md
+- 测试用:
+  - 测试子页: test.md
